@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: '[app-manual]',
@@ -7,8 +7,4 @@ import { Component, OnInit } from '@angular/core';
     `p { padding: 20px; background: mistyrose; border: 1px solid red; }`,
   ],
 })
-export class ManualComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit() {}
-}
+export class ManualComponent {}
